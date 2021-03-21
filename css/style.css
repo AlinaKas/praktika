@@ -90,13 +90,13 @@ p {
   color: var(--title-accent-color);
 }
 
-.title > span {
-  display: flex;
-  flex-direction: column;
-}
+/* span {
+  display: block;
+} */
 
-.centered {
-  text-align: center;
+.title-label,
+.text {
+  display: block;
 }
 
 /* HEADER */
@@ -148,10 +148,10 @@ p {
 }
 
 /* HERO */
-/* .hero {
+.hero {
   padding-top: 186px;
   padding-bottom: 207px;
-} */
+}
 
 .hero-content {
   max-width: 641px;
@@ -179,8 +179,9 @@ p {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.2;
-  color: #ffffff;
-  background-color: var(--primary-accent-color);
+
+  color: var(--secondary-accent-color);
+  background: rgba(250, 86, 82, 0.15);
   border: none;
   border-radius: 65px;
   cursor: pointer;
@@ -188,8 +189,8 @@ p {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--secondary-accent-color);
-  background: rgba(250, 86, 82, 0.15);
+  color: #ffffff;
+  background-color: var(--primary-accent-color);
 }
 
 /* OVERVIEW */
@@ -226,12 +227,22 @@ p {
   cursor: pointer;
 }
 
+.overview-btn:hover,
+.overview-btn:focus {
+  color: #ffffff;
+  background-color: var(--primary-accent-color);
+}
+
 /* CONTAGION */
+.contagion > .container {
+  text-align: center;
+  padding-bottom: 148px;
+}
 
 .contagion-description {
   margin-bottom: 111px;
   line-height: 2.15;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .contagion-set {
@@ -265,11 +276,29 @@ p {
 }
 
 /* SYMPTOMS */
+.symptoms > .container {
+  text-align: center;
+
+  padding-bottom: 134px;
+}
+
+.symptoms-img {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .symptoms-description {
   line-height: 2.15;
 }
 
 /* PREVENTION */
+.prevention > .container {
+  text-align: center;
+}
+
+.prevention .list {
+  text-align: start;
+}
 
 .prevention-item {
   display: flex;
@@ -298,8 +327,8 @@ p {
 /* FOOTER */
 .footer {
   display: flex;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 143px;
+  padding-bottom: 20px;
   align-items: center;
 
   font-size: 23px;
