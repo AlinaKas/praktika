@@ -155,12 +155,8 @@ p {
   background-image: url(../images-covid/img-hero/bcg-hero.png);
   background-size: auto auto;
   background-repeat: no-repeat;
-  background-position: right 120px top;
+  background-position: right 1470px bottom;
 }
-
-/* .hero > .container {
-  background-position: right bottom;
-} */
 
 .hero-content {
   display: block;
