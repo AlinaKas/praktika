@@ -155,7 +155,7 @@ p {
   background-image: url(../images-covid/img-hero/bcg-hero.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right 40px bottom;
 }
 
 /* .hero > .container {
