@@ -153,9 +153,9 @@ p {
   padding-top: 186px;
   padding-bottom: 207px;
   background-image: url(../images-covid/img-hero/bcg-hero.png);
-  /* background-size: contain; */
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: right bottom 40px;
+  background-position: right bottom;
 }
 
 /* .hero > .container {
