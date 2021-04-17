@@ -155,8 +155,12 @@ p {
   background-image: url(../images-covid/img-hero/bcg-hero.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: left 60% top;
+  background-position: left 90% bottom;
 }
+
+/* .hero > .container {
+  background-position: right bottom;
+} */
 
 .hero-content {
   display: block;
@@ -516,9 +520,9 @@ p {
   margin-bottom: 65px;
 }
 
-.footer-content > .menu-list {
+/* .footer-content > .menu-list {
   margin-left: 40px;
-}
+} */
 
 .footer .list {
   display: flex;
