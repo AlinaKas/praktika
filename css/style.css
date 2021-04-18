@@ -150,12 +150,14 @@ p {
 
 /* HERO */
 .hero {
+  display: block;
   padding-top: 186px;
   padding-bottom: 207px;
+
   background-image: url(../images-covid/img-hero/bcg-hero.png);
-  background-size: auto auto;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: right 1440px bottom;
+  background-position: right bottom 30px;
 }
 
 .hero-content {
