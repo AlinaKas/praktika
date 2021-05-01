@@ -1,0 +1,55 @@
+/* HERO */
+.hero {
+  display: block;
+  padding-top: 186px;
+  padding-bottom: 207px;
+
+  background-image: url(../images-covid/img-hero/bcg-hero.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom 30px;
+}
+
+.hero-content {
+  display: block;
+  width: 50%;
+}
+
+.hero-title {
+  margin-bottom: 96px;
+  font-family: var(--title-font);
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 32px;
+  line-height: 1.22;
+  color: var(--secondary-accent-color);
+}
+
+.hero-descriprion {
+  margin-bottom: 54px;
+  font-size: 24px;
+  line-height: 1.9;
+}
+
+.hero-btn {
+  min-width: 250px;
+  padding: 24px 57px 28px 66px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+
+  color: #ffffff;
+  background-color: var(--primary-accent-color);
+  box-shadow: 0px 8px 87px 0px rgba(0, 0, 0, 0.1);
+
+  border: 2px solid var(--primary-accent-color);
+  border-radius: 65px;
+  cursor: pointer;
+
+  & :hover,
+  & :focus {
+    color: var(--secondary-accent-color);
+    background: rgba(250, 86, 82, 0.15);
+  }
+}

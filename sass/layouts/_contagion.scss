@@ -1,0 +1,65 @@
+/* CONTAGION */
+.contagion > .container {
+  text-align: center;
+  padding-bottom: 148px;
+}
+
+.contagion-description {
+  margin-bottom: 111px;
+  line-height: 2.15;
+}
+
+.contagion-set {
+  display: flex;
+  margin-right: -30px;
+  margin-top: -30px;
+}
+
+.contagion-item {
+  flex-basis: calc((100% - 3 * 30px) / 3);
+  margin-right: 30px;
+  margin-top: 30px;
+  padding: 65px 52px 78px 53px;
+  justify-content: center;
+
+  background: #ffffff;
+  box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.08);
+  border-bottom: 6px solid #fa5652;
+  border-radius: 0 0 10px 10px;
+}
+
+.contagion .subtitle {
+  font-size: 36px;
+  margin-bottom: 13px;
+}
+
+.contagion-item::before {
+  content: '';
+  display: block;
+  height: 250px;
+  margin: 0 auto 55px;
+  background-position: center center;
+  box-sizing: contain;
+  background-repeat: no-repeat;
+}
+
+.contagion-item:nth-child(1)::before {
+  background-image: url(../images-covid/img-contagion/air-transmission.png);
+  // width: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contagion-item:nth-child(2)::before {
+  background-image: url(../images-covid/img-contagion/human-contacts.png);
+  // width: 284px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contagion-item:nth-child(3)::before {
+  background-image: url(../images-covid/img-contagion/containted-objects.png);
+  // width: 275px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

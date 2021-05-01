@@ -1,0 +1,35 @@
+/* COMPONENTS */
+
+.title {
+  display: block;
+
+  font-family: var(--title-font);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.19;
+  /* неправильный хайлайт */
+  margin-bottom: 31px;
+
+  color: var(--title-accent-color);
+}
+
+.title-label {
+  display: block;
+  font-family: var(--title-font);
+  font-weight: 700;
+  /*  не указана толщина шрифта */
+  font-size: 29px;
+  line-height: 1.24;
+  color: var(--secondary-accent-color);
+}
+
+.subtitle {
+  font-weight: 500;
+  line-height: 1.47;
+  color: var(--title-accent-color);
+}
+
+.title-label,
+.text {
+  display: block;
+}

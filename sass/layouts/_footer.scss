@@ -1,0 +1,28 @@
+/* FOOTER */
+.footer {
+  display: flex;
+  padding-top: 143px;
+  padding-bottom: 20px;
+  align-items: center;
+
+  font-size: 23px;
+  line-height: 1.22;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+
+/* .footer-content > .menu-list {
+  margin-left: 40px;
+} */
+
+.footer .list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00402e;
+}

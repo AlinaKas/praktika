@@ -1,0 +1,45 @@
+/* OVERVIEW */
+.title-overview {
+  margin-bottom: 18px;
+}
+
+.overview > .container {
+  display: flex;
+  flex-direction: row-reverse;
+  background-image: url(../images-covid/img-coronavirus-info/coronavirus.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.overview-content {
+  max-width: 648px;
+  padding-top: 139px;
+  padding-bottom: 188px;
+}
+
+.overview-description {
+  margin-bottom: 50px;
+}
+
+.overview-btn {
+  min-width: 200px;
+  padding: 20px 49px 22px 51px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--secondary-accent-color);
+  background: rgba(250, 86, 82, 0.15);
+  border: none;
+  border-radius: 65px;
+  cursor: pointer;
+
+  & :hover,
+& :focus {
+  color: #ffffff;
+  background-color: var(--primary-accent-color);
+}
+
+}
+

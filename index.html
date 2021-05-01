@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid-19</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.2.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/fonts.css"> 
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="./css/fonts.css">  -->
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!-- Header -->
@@ -97,40 +97,36 @@
                 <p class="prevention-description">Corona viruses are a type of virus. There are many different kinds, And some cause <span class="text">disease. A newly identified type has
                 caused</span></p>
                 <ul class="prevention-list list">
-                    <li class="prevention-item">              
+                    <li class="prevention-item mask-girl">              
                         <div class="prevention-item-content"> 
                             <h3 class="subtitle">Wear Masks</h3>
                             <p class="description">Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully
                             tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box"
                             thinking. Objectively</p>
                         </div>
-                        <!-- <img src="./images-covid/img-prescriptions/mask-girl.jpg" width="556" alt="Mask girl"> -->
                     </li>
-                    <li class="prevention-item">       
+                    <li class="prevention-item hand-washing">       
                         <div class="prevention-item-content"> 
                             <h3 class="subtitle">Wash Your Hands</h3>
                             <p class="description">Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully
                                 tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box"
                                 thinking. Objectively Continually seize impactful vortals</p>
                         </div>
-                        <!-- <img src="./images-covid/img-prescriptions/hand-washing.jpg" width="565" alt="Hand washing"> -->
                     </li>
-                    <li class="prevention-item">                      
+                    <li class="prevention-item sneezing-girl">                      
                         <div class="prevention-item-content"> 
                             <h3 class="subtitle">Use nose - rag</h3>
                             <p class="description">Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully
                                 tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic "outside the box"
                                 thinking. Objectively</p>
-                        </div>
-                        <!-- <img src="./images-covid/img-prescriptions/sneezing-girl.jpg" width="574" alt="Sneezing girl"> -->
+                        </div>        
                     </li>
-                    <li class="prevention-item">
+                    <li class="prevention-item hand-contact">
                         <div class="prevention-item-content"> 
                             <h3 class="subtitle">Avoid contacts</h3>
                             <p class="description">Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully
                                 tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic</p>
                         </div>
-                        <!-- <img src="./images-covid/img-prescriptions/hand-contact.jpg" width="657" alt="Hand contact"> -->
                     </li>
                 </ul>
             </div>
@@ -139,15 +135,72 @@
         <!-- Map section -->
         <section class="map">
             <div class="container">
-            <iframe id="inlineFrameExample" title="Live reports" width="1100" height="630"
+            <iframe id="inlineFrameExample" title="Live reports" width="975" height="635"
                 src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
             </iframe>
+                <div class="table-map-wrapper">
+                    <table class="table">
+                        <caption class="table-title subtitle">Live Reports</caption>
+                        <tbody class="table-content">
+                            <tr>
+                                <td class="table-country">
+                                    <svg class="icon-flag">
+                                    <use href="./images-covid/sprite.svg#icon-usa-flag"></use>
+                                </svg>
+                                    USA</td>
+                                <td class="table-data">100,392<svg class="icon-polygon">
+                                    <use href="./images-covid/sprite.svg#icon-polygon-1"></use>
+                                </svg></td>
+                            </tr>
+                            <tr>
+                                <td class="table-country"><svg class="icon-flag">
+                                    <use href="./images-covid/sprite.svg#icon-italy-flag"></use>
+                                </svg>Italy</td>
+                                <td class="table-data">86,498<svg class="icon-polygon">
+                                    <use href="./images-covid/sprite.svg#icon-polygon-1"></use>
+                                </svg></td>
+                            </tr>
+                            <tr>
+                                <td class="table-country"><svg class="icon-flag">
+                                    <use href="./images-covid/sprite.svg#icon-china-flag"></use>
+                                </svg>China</td>
+                                <td class="table-data">81,340<svg class="icon-polygon">
+                                    <use href="./images-covid/sprite.svg#icon-polygon-2"></use>
+                                </svg></td>
+                            </tr>
+                            <tr>
+                                <td class="table-country"><svg class="icon-flag">
+                                    <use href="./images-covid/sprite.svg#icon-spain-flag"></use>
+                                </svg>Spain</td>
+                                <td class="table-data">64,059<svg class="icon-polygon">
+                                    <use href="./images-covid/sprite.svg#icon-polygon-1"></use>
+                                </svg></td>
+                            </tr>
+                            <tr>
+                                <td class="table-country"><svg class="icon-flag">
+                                    <use href="./images-covid/sprite.svg#icon-germany-flag"></use>
+                                </svg>Germany</td>
+                                <td class="table-data">50,871<svg class="icon-polygon">
+                                    <use href="./images-covid/sprite.svg#icon-polygon-1"></use>
+                                </svg></td>
+                            </tr>
+                            <tr>
+                                <td class="table-country"><svg class="icon-flag">
+                                    <use href="./images-covid/sprite.svg#icon-iran-flag"></use>
+                                </svg>Iran</td>
+                                <td class="table-data">32,332<svg class="icon-polygon">
+                                    <use href="./images-covid/sprite.svg#icon-polygon-1"></use>
+                                </svg></td>
+                            </tr>
+                        </tbody>           
+                </table>
+                </div>      
             </div>
         </section>
 
         <!-- Form Section -->
         <section class="form-section">
-            <div class="container" class="form-help">
+            <div class="container form-help">
                 <p class="title form-title">Have Question in mind? <br>
                 Let us help you</p>
                 <form class="form-email">

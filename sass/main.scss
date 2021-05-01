@@ -1,0 +1,23 @@
+// Utils
+@import './utils/variables';
+
+// Base
+@import './base/common';
+@import './base/container';
+@import './base/fonts';
+
+// Components
+@import './components/titles';
+@import './components/form';
+@import './components/social-links';
+@import './components/link-current';
+
+// Layouts
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/overview';
+@import './layouts/contagion';
+@import './layouts/symptoms';
+@import './layouts/prevention';
+@import './layouts/map';
+@import './layouts/footer';

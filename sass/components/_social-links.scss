@@ -1,0 +1,22 @@
+.social-icon {
+  fill: var(--title-accent-color);
+
+  .social-link:hover &,
+  .social-link:focus & {
+    fill: #f44a45;
+  }
+}
+
+.copywrite {
+  width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+
+  font-size: 23px;
+  line-height: 1.22;
+  color: #415e56;
+}
+
+.social-list > .list-item:last-child {
+  margin-right: 0px;
+}
